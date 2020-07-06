@@ -33,7 +33,7 @@ namespace AzureKeyVaultApi
                   .AddJsonFile($"{Environment.GetEnvironmentVariable("CORE_CONFIG_DIRECTORY")}appsettings.json"
                   , optional: false, reloadOnChange: true);
 
-            config.AddXmlFile($"{Environment.GetEnvironmentVariable("CORE_CONFIG_DIRECTORY")}appsettings.xml"
+            config.AddXmlFile($"{Environment.GetEnvironmentVariable("CORE_CONFIG_DIRECTORY")}appsettings.{env.EnvironmentName}.xml"
                 , optional: false, reloadOnChange: true);
         })
         .UseStartup<Startup>());

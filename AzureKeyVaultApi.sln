@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureKeyVaultApi", "AzureKeyVaultApi\AzureKeyVaultApi.csproj", "{5E6AC8BD-49A1-427F-9965-2A706A9D144E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureKeyVaultApi", "AzureKeyVaultApi\AzureKeyVaultApi.csproj", "{5E6AC8BD-49A1-427F-9965-2A706A9D144E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSecretSolution", "ExampleSecretSolution\ExampleSecretSolution.csproj", "{B6478674-48CE-4543-956A-FE5824A490BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretsConsoleApp", "SecretsConsoleApp\SecretsConsoleApp.csproj", "{5C063397-23A5-44F1-9AF2-7D0409740ACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5E6AC8BD-49A1-427F-9965-2A706A9D144E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6AC8BD-49A1-427F-9965-2A706A9D144E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E6AC8BD-49A1-427F-9965-2A706A9D144E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6478674-48CE-4543-956A-FE5824A490BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6478674-48CE-4543-956A-FE5824A490BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6478674-48CE-4543-956A-FE5824A490BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6478674-48CE-4543-956A-FE5824A490BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C063397-23A5-44F1-9AF2-7D0409740ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C063397-23A5-44F1-9AF2-7D0409740ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C063397-23A5-44F1-9AF2-7D0409740ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C063397-23A5-44F1-9AF2-7D0409740ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
