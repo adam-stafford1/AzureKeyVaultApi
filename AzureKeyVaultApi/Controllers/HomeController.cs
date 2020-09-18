@@ -25,9 +25,9 @@ namespace AzureKeyVaultApi.Controllers
         [HttpGet]
         public async Task<string> Get()
         {
-            var data = _configuration.GetValue<string>("somesetting");
+            var key1 = _configuration.GetValue<string>("somesetting");
 
-            var d = _configuration.GetValue<string>("MyKey");
+            var key2 = _configuration.GetValue<string>("MyKey");
 
             return _configuration.GetValue<string>("somesetting");
         }
@@ -55,9 +55,7 @@ namespace AzureKeyVaultApi.Controllers
         public async Task<string> Read()
         {
             string message = string.Empty;
-            var factory = new ConnectionFactory()
-            {
-            };
+            var factory = new ConnectionFactory() { };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
